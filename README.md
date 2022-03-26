@@ -20,7 +20,7 @@ An app where students can join and share tips, tricks, past exams, join discussi
 - **Story:** Connects Queens College students. The users can post their interests and engage with other with similar interests. In addition students can post resources, tutoring services, and additional help posts.
 - **Market:** Current Students enrolled in Queen College. 
 - **Habit:** This app could be used as often or unoften as the user wanted depending on how deep their social life is, and what exactly they’re looking for.
-- **Scope:** At first we will start as a social app for students enrolled in Queens College, interested in Computer Science. This can evolve into a larger app which includes all CUNY/SUNY students.  
+- **Scope:** At first we will start as a social app for students enrolled in Queens College, interested in Computer Science. This can evolve into a larger app which includes all CUNY/SUNY students and multiple departments.  
 
 ## Product Spec
 
@@ -29,7 +29,7 @@ An app where students can join and share tips, tricks, past exams, join discussi
 - Users can Sign up/ Log in with a valid QC email.
 - Users can interact with posts of their interest.
 - Users can interact with class resources uploaded by their peers.
-- A live chat window to post miscellaneous comments.
+- A live chat window to post miscellaneous comments/services.
 - Profile pages for each user
 
 
@@ -39,21 +39,14 @@ An app where students can join and share tips, tricks, past exams, join discussi
 - Register - User signs up or logs into their account
   - Upon Download of the application, the user is prompted to log in to gain access to their profile information.
   - User stays logged in across restarts. 
-
-Messaging Screen - Chat for users to communicate (direct 1-on-1)
-Upon selecting music choice users matched and message screen opens
-Profile Screen
-Allows user to upload a photo and fill in information that is interesting to them and others
-Song Selection Screen.
-Allows user to be able to choose their desired song, artist, genre of preference and begin listening and interacting with others.
-Settings Screen
-Lets people change language, and app notification settings.
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+- Profile Screen
+  -Allows user to upload a photo and fill in information that is interesting to them and others
+- Home Feed Screen
+  - Allows users to create a post and interact with other posts. 
+- Resources Screen 
+  - Allows user to create and interact with resources of different Computer Science courses.
+- Tutoring Chat
+  - A live chat where students can post tutoring services/inqueries.
 
 ### 3. Navigation
 
