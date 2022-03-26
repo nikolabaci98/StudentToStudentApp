@@ -11,39 +11,40 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+An app where students can join and share tips, tricks, past exams, join discussion boards, keep up to date with campus wide updates and meet study-buddies.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Social Networking 
+- **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as Reddit or other similar apps. Functionality would be same across all devices.
+- **Story:** Connects Queens College students. The users can post their interests and engage with other with similar interests. In addition students can post resources, tutoring services, and additional help posts.
+- **Market:** Current Students enrolled in Queen College. 
+- **Habit:** This app could be used as often or unoften as the user wanted depending on how deep their social life is, and what exactly they’re looking for.
+- **Scope:** At first we will start as a social app for students enrolled in Queens College, interested in Computer Science. This can evolve into a larger app which includes all CUNY/SUNY students and multiple departments.  
 
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
-
 **Required Must-have Stories**
+- Users can Sign up/ Log in with a valid QC email.
+- Users can interact with posts of their interest.
+- Users can interact with class resources uploaded by their peers.
+- A live chat window to post miscellaneous comments/services.
+- Profile pages for each user
 
-* [fill in your required user stories here]
-* ...
-
-**Optional Nice-to-have Stories**
-
-* [fill in your required user stories here]
-* ...
 
 ### 2. Screen Archetypes
-
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+- Login
+- Register - User signs up or logs into their account
+  - Upon Download of the application, the user is prompted to log in to gain access to their profile information.
+  - User stays logged in across restarts. 
+- Profile Screen
+  -Allows user to upload a photo and fill in information that is interesting to them and others
+- Home Feed Screen
+  - Allows users to create a post and interact with other posts. 
+- Resources Screen 
+  - Allows user to create and interact with resources of different Computer Science courses.
+- Tutoring Chat
+  - A live chat where students can post tutoring services/inqueries.
 
 ### 3. Navigation
 
