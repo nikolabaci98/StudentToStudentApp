@@ -14,7 +14,6 @@ Original App Design Project - README Template
 An app where students can join and share tips, tricks, past exams, join discussion boards, keep up to date with campus wide updates and meet study-buddies.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Social Networking 
 - **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as Reddit or other similar apps. Functionality would be same across all devices.
 - **Story:** Connects Queens College students. The users can post their interests and engage with other with similar interests. In addition students can post resources, tutoring services, and additional help posts.
@@ -34,7 +33,6 @@ An app where students can join and share tips, tricks, past exams, join discussi
 
 
 ### 2. Screen Archetypes
-
 - Login
 - Register - User signs up or logs into their account
   - Upon Download of the application, the user is prompted to log in to gain access to their profile information.
