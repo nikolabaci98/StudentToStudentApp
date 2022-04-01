@@ -76,6 +76,7 @@ Settings -> Toggle settings
 ### Models
 
 Post
+--- | --- | --- |
 |Property       |Type               |Description
 |objectId       |String             |unique id for the user post (default field)
 |author         |Pointer to User    |image author
@@ -88,7 +89,7 @@ Post
 
 ### Networking
 
-# List of network requests by screen
+**List of network requests by screen**
 
 **Home Feed Screen**
 
