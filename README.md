@@ -59,9 +59,10 @@ An app where students can join and share tips, tricks, past exams, join discussi
 
 * Forced login -> Account creation if no log in is available
 * Profile -> Text field to be modified.
+* Feed -> Post cells to be modified.
 * Resources -> Text field to upload resources
 * Tutoring -> Jumps to a live chat for tutoring services
-Settings -> Toggle settings
+
 
 ## Wireframes
 
@@ -115,8 +116,8 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 -  (Delete) Delete existing like
 -  (Create/POST) Create a new comment on a post
 -  (Delete) Delete existing comment
-- Create Post Screen
-- (Create/POST) Create a new post object
-- Profile Screen
-- (Read/GET) Query logged in user object
-- (Update/PUT) Update user profile image
+-  Create Post Screen
+-  (Create/POST) Create a new post object
+-  Profile Screen
+-  (Read/GET) Query logged in user object
+-  (Update/PUT) Update user profile image
