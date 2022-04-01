@@ -88,9 +88,9 @@ Post
 
 ### Networking
 
-#List of network requests by screen
+## List of network requests by screen
 
-**Home Feed Screen
+* Home Feed Screen
 
 (Read/GET) Query all posts where user is author
 let query = PFQuery(className:"Post")
