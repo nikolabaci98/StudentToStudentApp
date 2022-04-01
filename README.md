@@ -87,7 +87,9 @@ Post
 |updatedAt      |DateTime           |date when post is last updated (default field)
 
 ### Networking
-List of network requests by screen
+
+#List of network requests by screen
+
 **Home Feed Screen
 
 (Read/GET) Query all posts where user is author
