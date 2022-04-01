@@ -57,16 +57,23 @@ An app where students can join and share tips, tricks, past exams, join discussi
 
 **Flow Navigation** (Screen to Screen)
 
-* Forced login -> Account creation if no log in is available
-* Profile -> Text field to be modified.
-* Feed -> Post cells to be modified.
-* Resources -> Text field to upload resources
-* Tutoring -> Jumps to a live chat for tutoring services
+* Login Screen
+    * Singup Screen
+    * Home Screen
+* Signup Screen
+    * Login Screen
+    * Profile Screen
+* Home Screen
+    * Post Screen
+* Tutoring
+    * Post Screen
+* Resources
+* Profile
 
 
 ## Wireframes
 
-<img src="https://i.imgur.com/G7uuzMR.jpg" width=600>
+<img src="wireflow.png" width=600>
 
 
 
