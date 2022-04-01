@@ -88,7 +88,7 @@ Post
 
 ### Networking
 
-## List of network requests by screen
+# List of network requests by screen
 
 * Home Feed Screen
 
