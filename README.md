@@ -91,8 +91,9 @@ Post
 # List of network requests by screen
 
 **Home Feed Screen**
-```
+
 (Read/GET) Query all posts where user is author
+```
 let query = PFQuery(className:"Post")
 query.whereKey("author", equalTo: currentUser)
 query.order(byDescending: "createdAt")
