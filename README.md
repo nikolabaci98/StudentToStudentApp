@@ -64,9 +64,9 @@ An app where students can join and share tips, tricks, past exams, join discussi
 Settings -> Toggle settings
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
+
 <img src="https://imgur.com/G7uuzMR" width=600>
-![This is an image](https://imgur.com/G7uuzMR)
+
 
 
 
