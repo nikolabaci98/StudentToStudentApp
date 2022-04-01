@@ -65,7 +65,7 @@ Settings -> Toggle settings
 
 ## Wireframes
 
-<img src="https://imgur.com/G7uuzMR" width=600>
+<img src="https://i.imgur.com/G7uuzMR.jpg" width=600>
 
 
 
