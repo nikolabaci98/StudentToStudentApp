@@ -1,7 +1,6 @@
 Original App Design Project - README Template
 ===
-//Talha Comment
-//Davids Comment
+
 # Qlinks
 
 ## Table of Contents
