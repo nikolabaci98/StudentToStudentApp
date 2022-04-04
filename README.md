@@ -79,7 +79,7 @@ An app where students can join and share tips, tricks, past exams, join discussi
 
 
 ### [BONUS] Digital Wireframes & Mockups
-
+// we doing it now
 ### [BONUS] Interactive Prototype
 
 ## Schema 
