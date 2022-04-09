@@ -128,3 +128,10 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 -  Profile Screen
 -  (Read/GET) Query logged in user object
 -  (Update/PUT) Update user profile image
+
+### Video Walkthrough
+Here's a walkthrough of implemented signup screens:
+
+<img src='./sign_up_recording.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [EZgif](https://ezgif.com//).
