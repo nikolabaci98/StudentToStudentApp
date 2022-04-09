@@ -25,8 +25,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 window?.rootViewController = confirmEmailVC
             } else {
                 let main = UIStoryboard(name: "Main", bundle: nil)
-                let feedVC = main.instantiateViewController(withIdentifier: "FeedScreen")
-                window?.rootViewController = feedVC
+                let tabVC = main.instantiateViewController(withIdentifier: "TabVC")
+                window?.rootViewController = tabVC
             }
             
         }

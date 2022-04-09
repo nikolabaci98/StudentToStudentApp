@@ -28,6 +28,6 @@ class LoginViewController: UIViewController {
     }
     
     func goToHome() {
-        performSegue(withIdentifier: K.loginToHomeSegue, sender: self)
+        performSegue(withIdentifier: K.loginToTabVCSegue, sender: self)
     }
 }

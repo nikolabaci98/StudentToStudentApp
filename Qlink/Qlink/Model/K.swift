@@ -15,9 +15,9 @@ struct K {
     static let emailToPasswordSegue = "EmailToPassword"
     static let passwordToScreenNameSegue = "PasswordToScreenName"
     static let signupToConfrimEmailSegue = "ConfirmEmail"
-    static let confirmEmailToHomeSegue = "EmailToHome"
+    static let confirmEmailToTabVCSegue = "UserLoginFirstTime"
     
-    static let loginToHomeSegue = "LoginToHome"
+    static let loginToTabVCSegue = "UserLogin"
     
     static let emailDomain = "@qmail.cuny.edu"
 }

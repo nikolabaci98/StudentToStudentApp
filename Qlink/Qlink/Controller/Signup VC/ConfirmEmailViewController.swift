@@ -34,6 +34,6 @@ class ConfirmEmailViewController: UIViewController {
     }
     
     func goToHome() {
-        performSegue(withIdentifier: K.confirmEmailToHomeSegue, sender: self)
+        performSegue(withIdentifier: K.confirmEmailToTabVCSegue, sender: self)
     }
 }
