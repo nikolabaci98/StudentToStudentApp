@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == K.emailToPasswordSegue {
             let passwordVC = segue.destination as! PasswordViewController
-            passwordVC.email = emailTextField.text!
+            passwordVC.email = emailTextField.text! + K.emailDomain
         }
     }
     

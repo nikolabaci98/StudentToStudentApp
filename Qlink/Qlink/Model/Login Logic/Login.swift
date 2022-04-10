@@ -24,7 +24,7 @@ class Login {
           if user != nil {
               self.delegate.goToHome()
           } else {
-            print("Error on login: \(error)")
+              self.delegate.errorEmailOrPasswordTextField.isHidden = false
           }
         }
     }
