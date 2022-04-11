@@ -10,27 +10,23 @@ import Parse
 
 class ConfirmEmailViewController: UIViewController {
     
-    var timer: Timer! = nil
+    var confirmEmail: ConfirmEmail?
+    
+    @IBOutlet weak var confirmationEmailLabel: UILabel!
+    @IBOutlet weak var incorrectEmailLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(isEmailConfirmed), userInfo: nil, repeats: true)
-        if PFUser.current() == nil {
-            print("there is no user")
-        }
+        let username = PFUser.current()?.username
+        confirmationEmailLabel.text = "We sent a confirmation email to \(username ?? ""). Please verify your email address in order to proceed with Qlink"
+        incorrectEmailLabel.text = "If the email is incorrect, then please start over."
+        confirmEmail = ConfirmEmail(user: PFUser.current()!, self)
     }
     
-    @objc func isEmailConfirmed() {
-        PFUser.current()?.fetchInBackground(block: { user, error in
-            if error == nil {
-                let isVerified = user?["emailVerified"] as! Bool
-                if isVerified {
-                    self.timer.invalidate()
-                    self.goToHome()
-                }
-            }
-            
-        })
+
+    
+    @IBAction func onStartOverPressed(_ sender: UIButton) {
+        confirmEmail?.onStartOver()
     }
     
     func goToHome() {

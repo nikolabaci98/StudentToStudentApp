@@ -33,19 +33,21 @@ An app where students can join and share tips, tricks, past exams, join discussi
 
 
 ### 2. Screen Archetypes
-- Login
-- Register - User signs up or logs into their account
-  - Upon Download of the application, the user is prompted to log in to gain access to their profile information.
-  - User stays logged in across restarts. 
-- Profile Screen
-  -Allows user to upload a photo and fill in information that is interesting to them and others
+- Initial Screen
+- Login Screen
+    - User stays logged in across restarts.
+- Signup Screen
+    - User signs up with QC email 
+    - Email has to be verified before entering the account
 - Home Feed Screen
   - Allows users to create a post and interact with other posts. 
 - Resources Screen 
   - Allows user to create and interact with resources of different Computer Science courses.
 - Tutoring Chat
   - A live chat where students can post tutoring services/inqueries.
-
+- Profile Screen
+  -Allows user to upload a photo and fill in information that is interesting to them and others
+  
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
@@ -56,78 +58,83 @@ An app where students can join and share tips, tricks, past exams, join discussi
 * Tutoring
 
 **Flow Navigation** (Screen to Screen)
-
+* Initial Screen
+    * Login Screen
+    * Signup Screen
 * Login Screen
-    * Singup Screen
     * Home Screen
 * Signup Screen
-    * Login Screen
     * Profile Screen
 * Home Screen
+    * Profile Screen
     * Post Screen
+    * Tutoring Screen
+    * Resources Screen
 * Tutoring
+    * Profile Screen
     * Post Screen
+    * Home Screen
+    * Resources Screen
 * Resources
+    * Profile Creen
+    * Tutoring
+    * Post Screen
+    * Home Screen
 * Profile
+    * Tutoring
+    * Post Screen
+    * Home Screen
+    * Resources Screen
 
 
 ## Wireframes
-
 <img src="wireflow.png" width=600>
 
-
-
-
-### [BONUS] Digital Wireframes & Mockups
-// we doing it now
-### [BONUS] Interactive Prototype
+### Digital Wireframes & Mockups
+### Interactive Prototype
 
 ## Schema 
+PFUser
 
-### Models
+|Property       |Type               |Description
+|---------      |---------          |---------
+|username       |String             |QC email
+|emailVerified  |Bool               |Only enter the app if true
+|email          |String             |Same as username
+|bio            |String             |User can tell more about themselves
+|classStanding  |String             |The academic year the user is currently
+|profileImage   |PFFileObject       |Initially an avatar, will hold user's profile picture
+|screenName     |String             |User's name shown to other users
+|major          |String             |Major that user is persuing
+
 
 Post
 
 |Property       |Type               |Description
 |---------      |---------          |---------
-|objectId       |String             |unique id for the user post (default field)
-|author         |Pointer to User    |image author
-|image          |File               |image that user posts
-|caption        |String             |image caption by author
-|commentsCount  |Number             |number of comments that has been posted to an image
-|likesCount     |Number             |number of likes for the post
-|createdAt      |DateTime           |date when post is created (default field)
-|updatedAt      |DateTime           |date when post is last updated (default field)
+
+
 
 ### Networking
 
 **List of network requests by screen**
 
-**Home Feed Screen**
+**Signup Screen**
 
-(Read/GET) Query all posts where user is author
+(Write/Create) Create a user on signup
 ```
-let query = PFQuery(className:"Post")
-query.whereKey("author", equalTo: currentUser)
-query.order(byDescending: "createdAt")
-query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-   if let error = error { 
-      print(error.localizedDescription)
-   } else if let posts = posts {
-      print("Successfully retrieved \(posts.count) posts.")
-  // TODO: Do something with posts...
-   }
-}
+    user.signUpInBackground { success, error in
+        if let error = error {
+            // error on signup
+        } else {
+            // proceed to email confirmation
+        }
+    }
 ```
--  (Create/POST) Create a new like on a post
--  (Delete) Delete existing like
--  (Create/POST) Create a new comment on a post
--  (Delete) Delete existing comment
--  Create Post Screen
--  (Create/POST) Create a new post object
--  Profile Screen
--  (Read/GET) Query logged in user object
--  (Update/PUT) Update user profile image
+User Creation & Authentication
+-  (Write/Create) Create a user on signup
+-  (Read/Get) Authenticate the user on login
+
 
 ### Video Walkthrough
 Here's a walkthrough of implemented signup screens:

@@ -38,5 +38,6 @@ class ScreenNameViewController: UIViewController {
     func confirmEmail() {
         performSegue(withIdentifier: K.signupToConfrimEmailSegue, sender: self)
     }
+
     
 }
