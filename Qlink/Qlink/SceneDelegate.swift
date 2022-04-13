@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Parse
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -17,6 +17,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        if PFUser.current() != nil {
+            print("User found \(PFUser.current())")
+            if PFUser.current()?["emailVerified"] as! Bool == false {
+                let main = UIStoryboard(name: "Main", bundle: nil)
+                let confirmEmailVC = main.instantiateViewController(withIdentifier: "ConfirmEmail")
+                window?.rootViewController = confirmEmailVC
+            } else {
+                let main = UIStoryboard(name: "Main", bundle: nil)
+                let tabVC = main.instantiateViewController(withIdentifier: "TabVC")
+                window?.rootViewController = tabVC
+            }
+            
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

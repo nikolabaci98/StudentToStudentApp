@@ -8,25 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		CCB0B5838AB1A55555AE6941 /* Pods_Qlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CDB130ADCEA16B85B4E150 /* Pods_Qlink.framework */; };
+		D02C29BF27FF3EFF00BAC752 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C29BE27FF3EFF00BAC752 /* Email.swift */; };
+		D02C29C127FF441200BAC752 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C29C027FF441200BAC752 /* K.swift */; };
+		D02C29C327FF450300BAC752 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C29C227FF450300BAC752 /* PasswordViewController.swift */; };
+		D02C29C527FF465400BAC752 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C29C427FF465400BAC752 /* Password.swift */; };
+		D02C29C727FF479B00BAC752 /* ScreenName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C29C627FF479B00BAC752 /* ScreenName.swift */; };
+		D02C29C927FF480400BAC752 /* ScreenNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C29C827FF480400BAC752 /* ScreenNameViewController.swift */; };
 		D063787E27FB8792009C5E3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063787D27FB8792009C5E3A /* AppDelegate.swift */; };
 		D063788027FB8792009C5E3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063787F27FB8792009C5E3A /* SceneDelegate.swift */; };
-		D063788227FB8792009C5E3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063788127FB8792009C5E3A /* ViewController.swift */; };
+		D063788227FB8792009C5E3A /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063788127FB8792009C5E3A /* EmailViewController.swift */; };
 		D063788527FB8792009C5E3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D063788327FB8792009C5E3A /* Main.storyboard */; };
 		D063788727FB8794009C5E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D063788627FB8794009C5E3A /* Assets.xcassets */; };
 		D063788A27FB8794009C5E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D063788827FB8794009C5E3A /* LaunchScreen.storyboard */; };
+		D063789527FCFECB009C5E3A /* ParseApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063789427FCFECB009C5E3A /* ParseApiKeys.swift */; };
+		D06CE0DA2801436B0080E69E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CE0D92801436B0080E69E /* LoginViewController.swift */; };
+		D06CE0DC280144580080E69E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CE0DB280144580080E69E /* Login.swift */; };
+		D06CE0DF28020D5F0080E69E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CE0DE28020D5F0080E69E /* HomeViewController.swift */; };
+		D06CE0E12802FA750080E69E /* ConfirmEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CE0E02802FA750080E69E /* ConfirmEmail.swift */; };
+		D0EDA16F27FF6BA700D89D04 /* GateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDA16E27FF6BA700D89D04 /* GateViewController.swift */; };
+		D0EDA17127FF76F100D89D04 /* ConfirmEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDA17027FF76F100D89D04 /* ConfirmEmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		268918A5F7C322668531D533 /* Pods-Qlink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qlink.release.xcconfig"; path = "Target Support Files/Pods-Qlink/Pods-Qlink.release.xcconfig"; sourceTree = "<group>"; };
 		82CDB130ADCEA16B85B4E150 /* Pods_Qlink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qlink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02C29BE27FF3EFF00BAC752 /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		D02C29C027FF441200BAC752 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		D02C29C227FF450300BAC752 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		D02C29C427FF465400BAC752 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		D02C29C627FF479B00BAC752 /* ScreenName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenName.swift; sourceTree = "<group>"; };
+		D02C29C827FF480400BAC752 /* ScreenNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenNameViewController.swift; sourceTree = "<group>"; };
 		D063787A27FB8792009C5E3A /* Qlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D063787D27FB8792009C5E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D063787F27FB8792009C5E3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D063788127FB8792009C5E3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D063788127FB8792009C5E3A /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		D063788427FB8792009C5E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D063788627FB8794009C5E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D063788927FB8794009C5E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D063788B27FB8794009C5E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D063789427FCFECB009C5E3A /* ParseApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseApiKeys.swift; sourceTree = "<group>"; };
+		D06CE0D92801436B0080E69E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D06CE0DB280144580080E69E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D06CE0DE28020D5F0080E69E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D06CE0E02802FA750080E69E /* ConfirmEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEmail.swift; sourceTree = "<group>"; };
+		D0EDA16E27FF6BA700D89D04 /* GateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateViewController.swift; sourceTree = "<group>"; };
+		D0EDA17027FF76F100D89D04 /* ConfirmEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEmailViewController.swift; sourceTree = "<group>"; };
 		D2DD7734A78DB6B961771CEF /* Pods-Qlink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qlink.debug.xcconfig"; path = "Target Support Files/Pods-Qlink/Pods-Qlink.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +74,17 @@
 				82CDB130ADCEA16B85B4E150 /* Pods_Qlink.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D02C29BD27FF3EE800BAC752 /* Signup Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D02C29BE27FF3EFF00BAC752 /* Email.swift */,
+				D02C29C427FF465400BAC752 /* Password.swift */,
+				D02C29C627FF479B00BAC752 /* ScreenName.swift */,
+				D06CE0E02802FA750080E69E /* ConfirmEmail.swift */,
+			);
+			path = "Signup Logic";
 			sourceTree = "<group>";
 		};
 		D063787127FB8792009C5E3A = {
@@ -73,13 +110,71 @@
 			children = (
 				D063787D27FB8792009C5E3A /* AppDelegate.swift */,
 				D063787F27FB8792009C5E3A /* SceneDelegate.swift */,
-				D063788127FB8792009C5E3A /* ViewController.swift */,
-				D063788327FB8792009C5E3A /* Main.storyboard */,
-				D063788627FB8794009C5E3A /* Assets.xcassets */,
-				D063788827FB8794009C5E3A /* LaunchScreen.storyboard */,
+				D063789127FCFDB0009C5E3A /* Model */,
+				D063789227FCFDB9009C5E3A /* View */,
+				D063789327FCFDC1009C5E3A /* Controller */,
 				D063788B27FB8794009C5E3A /* Info.plist */,
+				D063788627FB8794009C5E3A /* Assets.xcassets */,
 			);
 			path = Qlink;
+			sourceTree = "<group>";
+		};
+		D063789127FCFDB0009C5E3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D02C29BD27FF3EE800BAC752 /* Signup Logic */,
+				D06CE0DD280145660080E69E /* Login Logic */,
+				D063789427FCFECB009C5E3A /* ParseApiKeys.swift */,
+				D02C29C027FF441200BAC752 /* K.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D063789227FCFDB9009C5E3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D063788327FB8792009C5E3A /* Main.storyboard */,
+				D063788827FB8794009C5E3A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D063789327FCFDC1009C5E3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0EDA16E27FF6BA700D89D04 /* GateViewController.swift */,
+				D06CE0D7280143380080E69E /* Signup VC */,
+				D06CE0D82801434A0080E69E /* Login VC */,
+				D06CE0DE28020D5F0080E69E /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D06CE0D7280143380080E69E /* Signup VC */ = {
+			isa = PBXGroup;
+			children = (
+				D063788127FB8792009C5E3A /* EmailViewController.swift */,
+				D02C29C227FF450300BAC752 /* PasswordViewController.swift */,
+				D02C29C827FF480400BAC752 /* ScreenNameViewController.swift */,
+				D0EDA17027FF76F100D89D04 /* ConfirmEmailViewController.swift */,
+			);
+			path = "Signup VC";
+			sourceTree = "<group>";
+		};
+		D06CE0D82801434A0080E69E /* Login VC */ = {
+			isa = PBXGroup;
+			children = (
+				D06CE0D92801436B0080E69E /* LoginViewController.swift */,
+			);
+			path = "Login VC";
+			sourceTree = "<group>";
+		};
+		D06CE0DD280145660080E69E /* Login Logic */ = {
+			isa = PBXGroup;
+			children = (
+				D06CE0DB280144580080E69E /* Login.swift */,
+			);
+			path = "Login Logic";
 			sourceTree = "<group>";
 		};
 		E378B4BAB99EB072546F0E3F /* Pods */ = {
@@ -88,7 +183,6 @@
 				D2DD7734A78DB6B961771CEF /* Pods-Qlink.debug.xcconfig */,
 				268918A5F7C322668531D533 /* Pods-Qlink.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,9 +301,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D063788227FB8792009C5E3A /* ViewController.swift in Sources */,
+				D0EDA17127FF76F100D89D04 /* ConfirmEmailViewController.swift in Sources */,
+				D02C29C927FF480400BAC752 /* ScreenNameViewController.swift in Sources */,
+				D02C29BF27FF3EFF00BAC752 /* Email.swift in Sources */,
+				D06CE0E12802FA750080E69E /* ConfirmEmail.swift in Sources */,
+				D063788227FB8792009C5E3A /* EmailViewController.swift in Sources */,
 				D063787E27FB8792009C5E3A /* AppDelegate.swift in Sources */,
+				D06CE0DF28020D5F0080E69E /* HomeViewController.swift in Sources */,
+				D02C29C327FF450300BAC752 /* PasswordViewController.swift in Sources */,
+				D02C29C527FF465400BAC752 /* Password.swift in Sources */,
+				D06CE0DC280144580080E69E /* Login.swift in Sources */,
+				D02C29C127FF441200BAC752 /* K.swift in Sources */,
+				D063789527FCFECB009C5E3A /* ParseApiKeys.swift in Sources */,
+				D02C29C727FF479B00BAC752 /* ScreenName.swift in Sources */,
 				D063788027FB8792009C5E3A /* SceneDelegate.swift in Sources */,
+				D06CE0DA2801436B0080E69E /* LoginViewController.swift in Sources */,
+				D0EDA16F27FF6BA700D89D04 /* GateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +466,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Qlink/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -387,6 +495,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Qlink/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
