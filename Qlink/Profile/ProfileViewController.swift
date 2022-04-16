@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Parse
+import AlamofireImage
 
 class ProfileViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
 
@@ -18,8 +20,28 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
    //---------
     @IBOutlet weak var imageView: UIImageView!
     
+   
+    @IBAction func onSave(_ sender: Any) {
+   
+    let post = PFObject(className: "Profile")
     
-    
+    post["bio"] = aboutMeLabel.text!
+    post["major"] = addMajor.text!
+    post["classStanding"] = addClassStanding.text!
+    post["author"] = PFUser.current()!
+    let imageData = imageView.image!.pngData()
+    let file = PFFileObject(name: "image.png", data: imageData!)
+    post["image"] = file
+    post.saveInBackground{
+        (success, error) in
+        if success {
+            self.dismiss(animated: true, completion: nil)
+            print("saved!")
+        } else {
+            print("error!")
+        }
+    }
+}
     
     @IBAction func onCamera2(_ sender: Any) {
     

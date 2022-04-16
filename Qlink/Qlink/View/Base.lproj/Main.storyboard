@@ -508,7 +508,11 @@
                                 <items>
                                     <navigationItem title="Edit Profile" id="DkW-S4-RfD">
                                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="V5J-3a-kvP"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Save" id="zpQ-Ko-7gc"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Save" id="zpQ-Ko-7gc">
+                                            <connections>
+                                                <action selector="onSave:" destination="0cu-Hd-QmT" id="kgq-ew-tqs"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
