@@ -33,10 +33,11 @@ An app where students can join and share tips, tricks, past exams, join discussi
 
 
 ### 2. Screen Archetypes
-- Initial Screen
-- Login Screen
+-[x]Launch Screen
+-[x]Initial Screen
+-[x]Login Screen
     - User stays logged in across restarts.
-- Signup Screen
+-[x]Signup Screen
     - User signs up with QC email 
     - Email has to be verified before entering the account
 - Home Feed Screen
