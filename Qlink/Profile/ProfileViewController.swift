@@ -17,22 +17,29 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
     @IBOutlet weak var addMajor: UITextField!
     @IBOutlet weak var addClassStanding: UITextField!
     
+
+    @IBAction func onCancel(_ sender: Any) {
+    dismiss(animated: true, completion: nil)
+                
+    }
+    
    //---------
     @IBOutlet weak var imageView: UIImageView!
     
    
     @IBAction func onSave(_ sender: Any) {
-   
-    let post = PFObject(className: "Profile")
-    
-    post["bio"] = aboutMeLabel.text!
-    post["major"] = addMajor.text!
-    post["classStanding"] = addClassStanding.text!
-    post["author"] = PFUser.current()!
+        
+      
+       
+        let user = PFObject(className: "Profile")
+        user["bio"] = addBio.text!
+        user["major"] = addMajor.text!
+        user["classStanding"] = addClassStanding.text!
+        user["author"] = PFUser.current()!
     let imageData = imageView.image!.pngData()
     let file = PFFileObject(name: "image.png", data: imageData!)
-    post["image"] = file
-    post.saveInBackground{
+        user["image"] = file
+        user.saveInBackground{
         (success, error) in
         if success {
             self.dismiss(animated: true, completion: nil)
@@ -41,7 +48,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
             print("error!")
         }
     }
-}
+        }
     
     @IBAction func onCamera2(_ sender: Any) {
     
