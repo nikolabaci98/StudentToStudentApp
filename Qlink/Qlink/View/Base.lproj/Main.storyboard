@@ -658,7 +658,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Create Post" id="gIl-Qx-wHS">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" image="back_icon" id="wXK-KY-qkE"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" image="back_icon" id="wXK-KY-qkE">
+                                            <connections>
+                                                <action selector="onBackButton:" destination="i0f-GQ-lQy" id="tIr-sd-kkp"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Publish" id="jOO-9F-nug">
                                             <connections>
                                                 <action selector="onPublish:" destination="i0f-GQ-lQy" id="LQ5-y2-MrC"/>

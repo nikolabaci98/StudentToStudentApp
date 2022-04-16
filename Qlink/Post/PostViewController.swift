@@ -15,6 +15,9 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     @IBOutlet weak var statusField: UITextField!
     @IBOutlet weak var imageView: UIImageView!
     
+    @IBAction func onBackButton(_ sender: Any) {
+            dismiss(animated: true, completion: nil)
+        }
     @IBAction func onPublish(_ sender: Any) {
         let post = PFObject(className: "Posts")
         
