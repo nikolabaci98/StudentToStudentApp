@@ -26,8 +26,13 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
     
    //---------
     @IBOutlet weak var imageView: UIImageView!
-    @IBAction func onCamera(_ sender: Any) {
-        let picker = UIImagePickerController()
+    
+    
+    
+    
+    @IBAction func onCamera2(_ sender: Any) {
+    
+    let picker = UIImagePickerController()
         picker.delegate = self
         picker.allowsEditing = true
         
