@@ -142,3 +142,6 @@ Here's a walkthrough of implemented signup screens:
 <img src='./sign_up_recording.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [EZgif](https://ezgif.com//).
+
+Here's a walkthrough of implemented build sprint 2 updates:
+![](build_sprint2.gif)
