@@ -15,6 +15,15 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
     @IBOutlet weak var addMajor: UITextField!
     @IBOutlet weak var addClassStanding: UITextField!
     
+    @IBAction func onCancel(_ sender: Any) {
+        
+    }
+    
+    
+    @IBAction func onSave(_ sender: Any) {
+    }
+    
+    
    //---------
     @IBOutlet weak var imageView: UIImageView!
     @IBAction func onCamera(_ sender: Any) {
