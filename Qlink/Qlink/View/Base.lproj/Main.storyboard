@@ -352,7 +352,7 @@
                         <viewLayoutGuide key="safeArea" id="y0p-ka-xQq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tutoring" id="a6D-hm-OFa"/>
+                    <tabBarItem key="tabBarItem" title="Tutoring" selectedImage="tutoring_tab_icon" id="a6D-hm-OFa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ykW-1s-Sbt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -639,7 +639,7 @@
                         <viewLayoutGuide key="safeArea" id="bTj-Ue-Y5S"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reources" id="heg-xI-IQN"/>
+                    <tabBarItem key="tabBarItem" title="Reources" selectedImage="resources_tab_icon" id="heg-xI-IQN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fMF-tQ-Je3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -780,7 +780,7 @@
                             <constraint firstItem="cU6-VO-u7g" firstAttribute="centerX" secondItem="ViJ-5p-tcs" secondAttribute="centerX" id="aoE-wQ-8sf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="home_icon" id="AhG-Xm-Bm6"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home_icon" selectedImage="home" id="AhG-Xm-Bm6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4yu-Ix-BEe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -925,7 +925,7 @@
         <scene sceneID="xSB-Qe-Bqj">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dxc-Ry-Lhv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="ZLD-4w-jpw"/>
+                    <tabBarItem key="tabBarItem" title="Profile" selectedImage="profile_tab_icon" id="ZLD-4w-jpw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zzk-MH-t7t">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -947,8 +947,12 @@
     <resources>
         <image name="back_icon" width="30" height="30"/>
         <image name="camera_icon" width="30" height="23"/>
+        <image name="home" width="32" height="32"/>
         <image name="home_icon" width="30" height="30"/>
         <image name="profile_avatar" width="120" height="120"/>
+        <image name="profile_tab_icon" width="32" height="32"/>
+        <image name="resources_tab_icon" width="32" height="32"/>
+        <image name="tutoring_tab_icon" width="32" height="32"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
