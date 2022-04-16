@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC616C2A2807E38E00F57236 /* Profile Tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC616C292807E38E00F57236 /* Profile Tab.storyboard */; };
-		BC616C2D2807ED0C00F57236 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC616C2C2807ED0C00F57236 /* UserProfileViewController.swift */; };
+		63B5A26228067B5700EF7D4A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B5A26128067B5700EF7D4A /* PostCell.swift */; };
+		63B5A26728067CDA00EF7D4A /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B5A26628067CDA00EF7D4A /* PostViewController.swift */; };
+		BC616C2F280A66F600F57236 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC616C2E280A66F600F57236 /* ProfileViewController.swift */; };
+		BC616C34280A6F5700F57236 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC616C33280A6F5700F57236 /* ProfileCell.swift */; };
 		CCB0B5838AB1A55555AE6941 /* Pods_Qlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CDB130ADCEA16B85B4E150 /* Pods_Qlink.framework */; };
 		D02C29BF27FF3EFF00BAC752 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C29BE27FF3EFF00BAC752 /* Email.swift */; };
 		D02C29C127FF441200BAC752 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C29C027FF441200BAC752 /* K.swift */; };
@@ -33,9 +35,11 @@
 
 /* Begin PBXFileReference section */
 		268918A5F7C322668531D533 /* Pods-Qlink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qlink.release.xcconfig"; path = "Target Support Files/Pods-Qlink/Pods-Qlink.release.xcconfig"; sourceTree = "<group>"; };
+		63B5A26128067B5700EF7D4A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		63B5A26628067CDA00EF7D4A /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		82CDB130ADCEA16B85B4E150 /* Pods_Qlink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qlink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC616C292807E38E00F57236 /* Profile Tab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Profile Tab.storyboard"; sourceTree = "<group>"; };
-		BC616C2C2807ED0C00F57236 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		BC616C2E280A66F600F57236 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BC616C33280A6F5700F57236 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		D02C29BE27FF3EFF00BAC752 /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
 		D02C29C027FF441200BAC752 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		D02C29C227FF450300BAC752 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
@@ -80,13 +84,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BC616C2B2807ECA200F57236 /* User Profile */ = {
+		63B5A26328067B6C00EF7D4A /* Post */ = {
 			isa = PBXGroup;
 			children = (
-				BC616C292807E38E00F57236 /* Profile Tab.storyboard */,
-				BC616C2C2807ED0C00F57236 /* UserProfileViewController.swift */,
+				63B5A26128067B5700EF7D4A /* PostCell.swift */,
+				63B5A26628067CDA00EF7D4A /* PostViewController.swift */,
 			);
-			path = "User Profile";
+			path = Post;
+			sourceTree = "<group>";
+		};
+		BC616C30280A673200F57236 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BC616C2E280A66F600F57236 /* ProfileViewController.swift */,
+				BC616C33280A6F5700F57236 /* ProfileCell.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		D02C29BD27FF3EE800BAC752 /* Signup Logic */ = {
@@ -103,6 +116,8 @@
 		D063787127FB8792009C5E3A = {
 			isa = PBXGroup;
 			children = (
+				BC616C30280A673200F57236 /* Profile */,
+				63B5A26328067B6C00EF7D4A /* Post */,
 				D063787C27FB8792009C5E3A /* Qlink */,
 				D063787B27FB8792009C5E3A /* Products */,
 				E378B4BAB99EB072546F0E3F /* Pods */,
@@ -121,7 +136,6 @@
 		D063787C27FB8792009C5E3A /* Qlink */ = {
 			isa = PBXGroup;
 			children = (
-				BC616C2B2807ECA200F57236 /* User Profile */,
 				D063787D27FB8792009C5E3A /* AppDelegate.swift */,
 				D063787F27FB8792009C5E3A /* SceneDelegate.swift */,
 				D063789127FCFDB0009C5E3A /* Model */,
@@ -261,7 +275,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D063788A27FB8794009C5E3A /* LaunchScreen.storyboard in Resources */,
-				BC616C2A2807E38E00F57236 /* Profile Tab.storyboard in Resources */,
 				D063788727FB8794009C5E3A /* Assets.xcassets in Resources */,
 				D063788527FB8792009C5E3A /* Main.storyboard in Resources */,
 			);
@@ -316,14 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B5A26728067CDA00EF7D4A /* PostViewController.swift in Sources */,
+				63B5A26228067B5700EF7D4A /* PostCell.swift in Sources */,
 				D0EDA17127FF76F100D89D04 /* ConfirmEmailViewController.swift in Sources */,
 				D02C29C927FF480400BAC752 /* ScreenNameViewController.swift in Sources */,
 				D02C29BF27FF3EFF00BAC752 /* Email.swift in Sources */,
 				D06CE0E12802FA750080E69E /* ConfirmEmail.swift in Sources */,
 				D063788227FB8792009C5E3A /* EmailViewController.swift in Sources */,
-				BC616C2D2807ED0C00F57236 /* UserProfileViewController.swift in Sources */,
 				D063787E27FB8792009C5E3A /* AppDelegate.swift in Sources */,
 				D06CE0DF28020D5F0080E69E /* HomeViewController.swift in Sources */,
+				BC616C34280A6F5700F57236 /* ProfileCell.swift in Sources */,
+				BC616C2F280A66F600F57236 /* ProfileViewController.swift in Sources */,
 				D02C29C327FF450300BAC752 /* PasswordViewController.swift in Sources */,
 				D02C29C527FF465400BAC752 /* Password.swift in Sources */,
 				D06CE0DC280144580080E69E /* Login.swift in Sources */,
@@ -482,7 +498,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 579Y8T43Y9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Qlink/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -511,7 +527,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 579Y8T43Y9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Qlink/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
