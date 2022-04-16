@@ -9,6 +9,7 @@ import UIKit
 
 class GateViewController: UIViewController {
 
+  
     override func viewDidLoad() {
         super.viewDidLoad()
     }
