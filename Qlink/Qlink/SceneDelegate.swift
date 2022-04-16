@@ -19,7 +19,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         
         if PFUser.current() != nil {
-            print("User found \(PFUser.current())")
             if PFUser.current()?["emailVerified"] as! Bool == false {
                 let main = UIStoryboard(name: "Main", bundle: nil)
                 let confirmEmailVC = main.instantiateViewController(withIdentifier: "ConfirmEmail")

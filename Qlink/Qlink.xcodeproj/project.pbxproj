@@ -23,8 +23,9 @@
 		D063789527FCFECB009C5E3A /* ParseApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063789427FCFECB009C5E3A /* ParseApiKeys.swift */; };
 		D06CE0DA2801436B0080E69E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CE0D92801436B0080E69E /* LoginViewController.swift */; };
 		D06CE0DC280144580080E69E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CE0DB280144580080E69E /* Login.swift */; };
-		D06CE0DF28020D5F0080E69E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CE0DE28020D5F0080E69E /* HomeViewController.swift */; };
 		D06CE0E12802FA750080E69E /* ConfirmEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CE0E02802FA750080E69E /* ConfirmEmail.swift */; };
+		D06CE0E528031FBD0080E69E /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CE0E428031FBD0080E69E /* FeedTableViewController.swift */; };
+		D06CE0E728031FDD0080E69E /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06CE0E628031FDD0080E69E /* FeedTableViewCell.swift */; };
 		D0EDA16F27FF6BA700D89D04 /* GateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDA16E27FF6BA700D89D04 /* GateViewController.swift */; };
 		D0EDA17127FF76F100D89D04 /* ConfirmEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDA17027FF76F100D89D04 /* ConfirmEmailViewController.swift */; };
 /* End PBXBuildFile section */
@@ -49,8 +50,9 @@
 		D063789427FCFECB009C5E3A /* ParseApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseApiKeys.swift; sourceTree = "<group>"; };
 		D06CE0D92801436B0080E69E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D06CE0DB280144580080E69E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		D06CE0DE28020D5F0080E69E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D06CE0E02802FA750080E69E /* ConfirmEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEmail.swift; sourceTree = "<group>"; };
+		D06CE0E428031FBD0080E69E /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		D06CE0E628031FDD0080E69E /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		D0EDA16E27FF6BA700D89D04 /* GateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GateViewController.swift; sourceTree = "<group>"; };
 		D0EDA17027FF76F100D89D04 /* ConfirmEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEmailViewController.swift; sourceTree = "<group>"; };
 		D2DD7734A78DB6B961771CEF /* Pods-Qlink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qlink.debug.xcconfig"; path = "Target Support Files/Pods-Qlink/Pods-Qlink.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			children = (
 				D02C29BD27FF3EE800BAC752 /* Signup Logic */,
 				D06CE0DD280145660080E69E /* Login Logic */,
+				D06CE0E228031F620080E69E /* Feed Logic */,
 				D063789427FCFECB009C5E3A /* ParseApiKeys.swift */,
 				D02C29C027FF441200BAC752 /* K.swift */,
 			);
@@ -145,7 +148,7 @@
 				D0EDA16E27FF6BA700D89D04 /* GateViewController.swift */,
 				D06CE0D7280143380080E69E /* Signup VC */,
 				D06CE0D82801434A0080E69E /* Login VC */,
-				D06CE0DE28020D5F0080E69E /* HomeViewController.swift */,
+				D06CE0E328031F810080E69E /* Feed VC */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,6 +178,22 @@
 				D06CE0DB280144580080E69E /* Login.swift */,
 			);
 			path = "Login Logic";
+			sourceTree = "<group>";
+		};
+		D06CE0E228031F620080E69E /* Feed Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Feed Logic";
+			sourceTree = "<group>";
+		};
+		D06CE0E328031F810080E69E /* Feed VC */ = {
+			isa = PBXGroup;
+			children = (
+				D06CE0E428031FBD0080E69E /* FeedTableViewController.swift */,
+				D06CE0E628031FDD0080E69E /* FeedTableViewCell.swift */,
+			);
+			path = "Feed VC";
 			sourceTree = "<group>";
 		};
 		E378B4BAB99EB072546F0E3F /* Pods */ = {
@@ -307,9 +326,10 @@
 				D06CE0E12802FA750080E69E /* ConfirmEmail.swift in Sources */,
 				D063788227FB8792009C5E3A /* EmailViewController.swift in Sources */,
 				D063787E27FB8792009C5E3A /* AppDelegate.swift in Sources */,
-				D06CE0DF28020D5F0080E69E /* HomeViewController.swift in Sources */,
+				D06CE0E728031FDD0080E69E /* FeedTableViewCell.swift in Sources */,
 				D02C29C327FF450300BAC752 /* PasswordViewController.swift in Sources */,
 				D02C29C527FF465400BAC752 /* Password.swift in Sources */,
+				D06CE0E528031FBD0080E69E /* FeedTableViewController.swift in Sources */,
 				D06CE0DC280144580080E69E /* Login.swift in Sources */,
 				D02C29C127FF441200BAC752 /* K.swift in Sources */,
 				D063789527FCFECB009C5E3A /* ParseApiKeys.swift in Sources */,
