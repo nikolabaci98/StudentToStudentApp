@@ -1,6 +1,5 @@
 Original App Design Project - README Template
 ===
-
 # Qlinks
 
 ## Table of Contents
